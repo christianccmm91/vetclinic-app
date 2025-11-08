@@ -1,0 +1,46 @@
+# --- Flutter/Dart ---
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+.fvm/
+coverage/
+pubspec.lock
+
+# --- Android (Flutter) ---
+**/local.properties
+**/.gradle/
+**/.idea/
+**/captures/
+**/gradle-wrapper.jar
+**/app/release/
+**/app/debug/
+**/outputs/
+**/generated/
+
+# --- iOS (si luego agregas iOS) ---
+**/Pods/
+**/Podfile.lock
+**/DerivedData/
+**/.symlinks/
+**/Flutter/Flutter.framework
+**/Flutter/Flutter.podspec
+**/ServiceDefinitions.json
+
+# --- VS Code / IntelliJ ---
+.vscode/
+.idea/
+*.iml
+
+# --- SO/Editor ---
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Archivos temporales ---
+*.tmp
+*.swp
+*.lock
